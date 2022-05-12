@@ -1,18 +1,20 @@
-body{
+*{
     background-color: rgb(123, 0, 255);
+    /* margin-bottom: 100px; */
+    height: 70vh;
 }
 
 .sidebarButton{
     background-color: rgb(94, 0, 194);
     height: 50px;
     position: absolute;
-    right: 10px;
-    top: 10px;
+    left: 0;  
+    top: 100px;
 }
 
 #sidebar{
     background-color: rgb(94, 0, 194);
-    height: 100vh;
+    height: 80vh;
     width: 300px;
     position: absolute;
     transition: 1s;
@@ -22,9 +24,18 @@ body{
 }
 
 .inactive{
-    left: -350px;
+    left: -250px;
 }
 
 .active{
     left: 0px;
+}
+
+.counter{
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(0, 190, 127);
 }
