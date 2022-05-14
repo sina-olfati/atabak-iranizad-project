@@ -1,11 +1,9 @@
-*{
-    background-color: rgb(123, 0, 255);
-    /* margin-bottom: 100px; */
-    height: 70vh;
+.container {
+    background: #7678ed;
+    height: 100vh;
 }
 
 .sidebarButton{
-    background-color: rgb(94, 0, 194);
     height: 50px;
     position: absolute;
     left: 0;  
@@ -13,8 +11,8 @@
 }
 
 #sidebar{
-    background-color: rgb(94, 0, 194);
-    height: 80vh;
+    background: #623CEA;
+    height: 100vh;
     width: 300px;
     position: absolute;
     transition: 1s;
@@ -24,7 +22,7 @@
 }
 
 .inactive{
-    left: -250px;
+    left: -300px;
 }
 
 .active{
@@ -37,5 +35,5 @@
     left: 10%;
     width: fit-content;
     height: fit-content;
-    background-color: rgb(0, 190, 127);
+    color: rgb(183, 165, 249);
 }

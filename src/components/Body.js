@@ -27,10 +27,11 @@ useEffect(() => {
   return (
     <div className={styles.container}>
         <div id={styles.sidebar} className={toggle ? styles.active : styles.inactive}>
+          Hi there!
         </div>
       <input type="image" src={icon} className={styles.sidebarButton} onClick={() => {toggleMenu()}}/>
  
- <h2 className={styles.counter}>Time remaining: {counter}</h2>
+      <h2 className={styles.counter}>Time remaining: {counter}</h2>
 
     </div>
   )
